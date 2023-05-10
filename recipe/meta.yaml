@@ -1,5 +1,5 @@
 {% set name = "types-Markdown" %}
-{% set version = "3.4.2.8" %}
+{% set version = "3.4.2.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-Markdown-{{ version }}.tar.gz
-  sha256: f4114d44ebd660edfa5e68366971ff32c44c90dce584158faa1abe6bf8075bd8
+  sha256: 0930057bea0a534e06bbc021d57520720ad2a65b363612614ab0599cc7f606a9
 
 build:
   number: 0
