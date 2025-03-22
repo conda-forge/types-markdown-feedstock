@@ -1,4 +1,4 @@
-{% set version = "3.7.0.20241204" %}
+{% set version = "3.7.0.20250322" %}
 {% set python_min = python_min | default("3.9") %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-markdown/types_markdown-{{ version }}.tar.gz
-  sha256: ecca2b25cd23163fd28ed5ba34d183d731da03e8a5ed3a20b60daded304c5410
+  sha256: a48ed82dfcb6954592a10f104689d2d44df9125ce51b3cee20e0198a5216d55c
 
 build:
   number: 0
