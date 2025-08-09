@@ -1,4 +1,4 @@
-{% set version = "3.8.0.20250708" %}
+{% set version = "3.8.0.20250809" %}
 {% set python_min = python_min | default("3.9") %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-markdown/types_markdown-{{ version }}.tar.gz
-  sha256: 28690251fe90757f5a99cd671c79502bc2de07aef2d35fe54117c3b1c799804a
+  sha256: fa619e735878a244332a4bbe16bcfc44e49ff6264c2696056278f0642cdfa223
 
 build:
   number: 0
