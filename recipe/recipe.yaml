@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.10.2.20261007"
+  version: "3.11.2.20261029"
 
 package:
   name: types-markdown
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-markdown/types_markdown-${{ version }}.tar.gz
-  sha256: 0259c70643291f4a1841d795dfabcd86380625db6854e5dea639fdaae9e4a623
+  sha256: 0e5ca053d002a8d90b19a1d4815a4500db685ccce6a1072046ff0f4bfe9c727c
 
 build:
   number: 0
